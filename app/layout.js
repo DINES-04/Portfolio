@@ -10,11 +10,11 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "DINES S | PORTFOLIO",
-  description: "",
-  icon:['../assets/public/favicon.ico'],
-  apple:['../assets/public/apple-touch-icon.png'],
-  shortcut:['../assets/public/apple-touch-icon.png'],
+  title: "DINES S | Portfolio",
+  description: "A portfolio website showcasing my work and skills.",
+  icon:['../public/favicon.ico'],
+  apple:['../public/apple-touch-icon.png'],
+  shortcut:['../public/apple-touch-icon.png'],
 };
 
 export default function RootLayout({ children }) {
