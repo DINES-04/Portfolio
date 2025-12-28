@@ -36,7 +36,7 @@ const Service = () => {
                 transition={{ duration: 0.9, delay: 0.6 }}
                 className='grid grid-cols-auto gap-6 my-10'>
                 {serviceData.map(({ icon, title, description, link }, index) => (
-                    <Link href={link} key={index} className="no-underline">
+                    <div key={index} className="no-underline">
                         <motion.div
                             whileHover={{ scale: 1.05 }}
                             className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-light hover:-translate-y-1 duration-500 dark:hover:bg-dark dark:hover:shadow-white"
@@ -50,7 +50,7 @@ const Service = () => {
                                 View My Services <Image src={assets.right_arrow} alt="arrow" className="w-4" />
                             </span> */}
                         </motion.div>
-                    </Link>
+                    </div>
                 ))}
             </motion.div>
         </motion.div>

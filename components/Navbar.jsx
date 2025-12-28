@@ -41,7 +41,7 @@ const Navbar = ({darkmode,setDarkmode}) => {
                 <li><a href="#service" className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Service</a></li>
                 <li><a href="#project" className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Project</a></li>
                 <li><a href="#contact" className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Contact</a></li>
-                <li><a href="#article" className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Article</a></li>
+                {/* <li><a href="#article" className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Article</a></li> */}
             </ul>
 
             <div className='flex items-center gap-4'>
@@ -83,7 +83,7 @@ const Navbar = ({darkmode,setDarkmode}) => {
                 <li><a href="#service"  onClick={closemenu} className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Service</a></li>
                 <li><a href="#work" onClick={closemenu}  className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Project</a></li>
                 <li><a href="#contact" onClick={closemenu}  className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Contact</a></li>
-                <li><a href="#article" onClick={closemenu}  className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Article</a></li>
+                {/* <li><a href="#article" onClick={closemenu}  className="font-Ovo relative after:block after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full">Article</a></li> */}
             </ul>
         </nav>
     </>

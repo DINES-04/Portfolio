@@ -36,7 +36,7 @@ export default function Home() {
       <Hero />
       <Portfolio darkmode={darkmode} />
       <Contact darkmode={darkmode} />
-      <Article darkmode={darkmode} />
+      {/* <Article darkmode={darkmode} /> */}
       <Footer darkmode={darkmode} />
     </>
   );
